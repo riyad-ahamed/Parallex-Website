@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    font-weight: 400;
+    line-height: 20px;
+}
+body{
+    height: 100vh;
+}
+.img1{
+    background-image: url(/robert-lukeman-_RBcxo9AU-U-unsplash.jpg);
+    min-height: 100%;
+}
+.img1,.img2,.img3,.img4{
+    position: relative;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
+.img2{
+    background-image: url(/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg);
+    min-height: 400px;
+}
+.img3{
+    background-image: url(/casey-horner-4rDCa5hBlCs-unsplash.jpg);
+    min-height: 400px;
+}
+.img4{
+    background-image: url(/jason-ortego-buF62ewDLcQ-unsplash.jpg);
+    min-height: 100%;
+}
+.ptext{
+    position:absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+}
+.ptext span{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(188, 187, 187);
+    padding: 15px 20px;
+    background-color: rgb(31, 31, 31);
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.light{
+    background-color: #d3d1d1;
+    text-align: center;
+    padding: 60px 60px;
+}
+.light h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    font-weight: 100;
+    /* background-color: #878686; */
+    /* display: inline-block; */
+    text-align: center;
+    color: rgb(64, 63, 63);
+    margin-bottom: 20px;
+}
+.light p{
+    color: rgb(64, 63, 63);
+    font-size: 14px;
+}
+.img2 .nat{
+    background-color: #5150507b;
+    font-weight: 700;
+}
+.dark{
+    background-color: rgb(31, 31, 31);
+    text-align: center;
+    padding: 60px 60px;
+}
+.dark h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    font-weight: 100;
+    /* background-color: #878686; */
+    /* display: inline-block; */
+    text-align: center;
+    color:rgb(158, 156, 156);
+    margin-bottom: 20px;
+}
+.dark p{
+    color: rgb(158, 156, 156);
+    font-size: 14px;
+}
